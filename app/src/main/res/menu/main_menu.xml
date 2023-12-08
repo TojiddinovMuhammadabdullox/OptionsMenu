@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="settings"
+        android:id="@+id/setid"
+        android:icon="@drawable/settings"
+        app:iconTint="@color/white"
+        app:showAsAction="always"
+        />
+    <item
+        android:title="File"
+        android:id="@+id/file"
+        android:icon="@drawable/file"
+        android:iconTint="@color/blue">
+
+        <menu>
+            <item
+                android:title="Add File"
+                android:id="@+id/addFile"/>
+            <item
+                android:title="Edit File"
+                android:id="@+id/editFile"/>
+
+        </menu>
+
+    </item>
+
+</menu>
